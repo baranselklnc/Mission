@@ -1,8 +1,9 @@
-package com.example.mission
+package com.example.mission.ui
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.mission.data.TaskDatabase
 
 class TaskViewModelFactory(
     private val application: Application,

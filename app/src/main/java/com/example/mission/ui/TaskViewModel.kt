@@ -1,8 +1,10 @@
-package com.example.mission
+package com.example.mission.ui
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
+import com.example.mission.data.Task
+import com.example.mission.data.TaskDatabase
 
 class TaskViewModel(
     application: Application,

@@ -1,5 +1,6 @@
+package com.example.mission.data
+
 import androidx.lifecycle.LiveData
-import com.example.mission.Task
 
 class TaskRepository(private val taskDao: TaskDao) {
 

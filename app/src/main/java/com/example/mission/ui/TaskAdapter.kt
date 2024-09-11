@@ -1,7 +1,9 @@
+package com.example.mission.ui
+
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mission.Task
+import com.example.mission.data.Task
 import com.example.mission.databinding.TaskItemBinding
 
 class TaskAdapter : RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
